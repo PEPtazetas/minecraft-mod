@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:bread"
+    },
+    "E": {
+      "item": "minecraft:cooked_porkchop"
+    }
+  },
+  "pattern": [
+    "AE"
+  ],
+  "result": {
+    "count": 1,
+    "id": "modminecraft:sandwich"
+  }
+}

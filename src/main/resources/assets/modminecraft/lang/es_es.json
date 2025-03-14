@@ -1,0 +1,23 @@
+{
+  "item.modminecraft.argento": "Argento",
+  "item.modminecraft.calento": "Calento",
+  "item.modminecraft.florita": "Florita",
+  "item.modminecraft.florita_ingot": "Lingote de Florita",
+
+  "item.modminecraft.mineral_seeker": "Buscador de Minerales",
+
+  "block.modminecraft.argento_ore": "Mena de Argento",
+  "block.modminecraft.calento_ore": "Mena de Calento",
+  "block.modminecraft.florita_ore": "Mena de Florita",
+  "block.modminecraft.deepslate_argento_ore": "Mena de Argento Profunda",
+  "block.modminecraft.banjo_music_block": "Bloque de Instrumentos de Cuerda",
+
+  "item.modminecraft.sandwich": "Bocadillo de Chuleta de Cerdo",
+  "item.modminecraft.strawberry": "Fresa",
+
+  "item.modminecraft.leaf": "Hoja de Arbol",
+
+  "tooltip.modminecraft.mineral_seeker.tooltip": "Encuentra minerales bajo tierra",
+
+  "creativetab.modminecraft_tab": "Mi Mod"
+}
