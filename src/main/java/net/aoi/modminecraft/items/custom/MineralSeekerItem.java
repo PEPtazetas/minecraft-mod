@@ -1,6 +1,7 @@
 package net.aoi.modminecraft.items.custom;
 
 import net.aoi.modminecraft.block.ModBlocks;
+import net.aoi.modminecraft.util.ModTags;
 import net.minecraft.client.resources.language.I18n;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
@@ -56,10 +57,7 @@ public class MineralSeekerItem extends Item {
     }
 
     private boolean isValuableBlock(BlockState state) {
-        return state.is(Blocks.IRON_ORE) || state.is(Blocks.COAL_ORE)
-                || state.is(Blocks.GOLD_ORE) || state.is(Blocks.DIAMOND_ORE)
-                || state.is(Blocks.ANCIENT_DEBRIS) || state.is(ModBlocks.ARGENTO_ORE.getKey())
-                || state.is(ModBlocks.CALENTO_ORE.getKey()) || state.is(ModBlocks.FLORITA_ORE.getKey());
+        return state.is(ModTags.Blocks.MINERAL_SEEKER_VALUABLES);
     }
 
     @Override
