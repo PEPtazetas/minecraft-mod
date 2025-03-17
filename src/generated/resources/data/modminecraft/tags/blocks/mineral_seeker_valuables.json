@@ -1,0 +1,9 @@
+{
+  "values": [
+    "modminecraft:argento_ore",
+    "modminecraft:deepslate_argento_ore",
+    "modminecraft:florita_ore",
+    "modminecraft:calento_ore",
+    "#forge:ores"
+  ]
+}

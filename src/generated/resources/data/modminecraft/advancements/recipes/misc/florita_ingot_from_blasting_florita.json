@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_florita": {
+      "conditions": {
+        "items": [
+          {
+            "items": "modminecraft:florita"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "modminecraft:florita_ingot_from_blasting_florita"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_florita"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "modminecraft:florita_ingot_from_blasting_florita"
+    ]
+  }
+}

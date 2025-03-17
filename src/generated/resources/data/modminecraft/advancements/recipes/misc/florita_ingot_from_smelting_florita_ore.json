@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_florita_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": "modminecraft:florita_ore"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "modminecraft:florita_ingot_from_smelting_florita_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_florita_ore"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "modminecraft:florita_ingot_from_smelting_florita_ore"
+    ]
+  }
+}

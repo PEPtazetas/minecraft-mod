@@ -1,0 +1,5 @@
+// 1.20.6	2025-03-17T12:35:29.201187	Tags for minecraft:block mod id modminecraft
+51878ef0957ba0b34612c5bf490ca1016c93d138 data/minecraft/tags/blocks/mineable/pickaxe.json
+af0a4f72cb6d64a6136eab28ddcd9d49522b8da1 data/minecraft/tags/blocks/needs_diamond_tool.json
+666483b88789ab0dfd6e3adb1d24a66d076253a2 data/minecraft/tags/blocks/needs_iron_tool.json
+e4dde0a47eb1634d85341ea27501b5fb07574279 data/modminecraft/tags/blocks/mineral_seeker_valuables.json
