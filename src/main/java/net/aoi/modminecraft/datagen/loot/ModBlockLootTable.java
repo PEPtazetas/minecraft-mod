@@ -24,13 +24,16 @@ public class ModBlockLootTable extends BlockLootSubProvider {
 
     @Override
     protected void generate() {
-        this.dropSelf(ModBlocks.ARGENTO_ORE.get());
+
         this.dropSelf(ModBlocks.DEEPSLATE_ARGENTO_ORE.get());
-        this.dropSelf(ModBlocks.CALENTO_ORE.get());
         this.dropSelf(ModBlocks.BANJO_MUSIC_BLOCK.get());
 
         this.add(ModBlocks.FLORITA_ORE.get(),
                 block -> createCopperLikeOreDrops(ModBlocks.FLORITA_ORE.get(), ModItems.FLORITA.get()));
+        this.add(ModBlocks.ARGENTO_ORE.get(),
+                block -> createCopperLikeOreDrops(ModBlocks.ARGENTO_ORE.get(), ModItems.ARGENTO.get()));
+        this.add(ModBlocks.CALENTO_ORE.get(),
+                block -> createCopperLikeOreDrops(ModBlocks.CALENTO_ORE.get(), ModItems.CALENTO.get()));
     }
 
     private LootTable.Builder createCopperLikeOreDrops(Block block, Item item) {

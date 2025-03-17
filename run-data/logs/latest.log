@@ -1,32 +1,27 @@
-[17mar2025 12:35:17.899] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_userdev_data, --assetIndex, 16, --assetsDir, C:\Users\jose3\.gradle\caches\forge_gradle\assets, --gameDir, ., --mod, modminecraft, --all, --output, C:\Users\jose3\Desktop\mod_minecraft\minecraft-mod\src\generated\resources, --existing, C:\Users\jose3\Desktop\mod_minecraft\minecraft-mod\src\main\resources]
-[17mar2025 12:35:17.904] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Amazon.com Inc. OpenJDK 64-Bit Server VM 21.0.4+7-LTS
-[17mar2025 12:35:17.906] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.1 starting: java version 21.0.4 by Amazon.com Inc.; OS Windows 10 arch amd64 version 10.0
-[17mar2025 12:35:18.068] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Configuration file C:\Users\jose3\Desktop\mod_minecraft\minecraft-mod\run-data\config\fml.toml is not correct. Correcting
-[17mar2025 12:35:18.070] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowSkipGLVersions] was corrected from null to []
-[17mar2025 12:35:18.071] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowLogHelpMessage] was corrected from null to true
-[17mar2025 12:35:18.071] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowSquir] was corrected from null to false
-[17mar2025 12:35:18.072] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowShowCPU] was corrected from null to false
-[17mar2025 12:35:18.087] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_userdev_data
-[17mar2025 12:35:18.237] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=jar:file:///C:/Users/jose3/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar!/ Service=ModLauncher Env=UNKNOWN
-[17mar2025 12:35:19.804] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[17mar2025 12:35:20.780] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_userdev_data' with arguments [--gameDir, ., --assetsDir, C:\Users\jose3\.gradle\caches\forge_gradle\assets, --assetIndex, 16, --mod, modminecraft, --all, --output, C:\Users\jose3\Desktop\mod_minecraft\minecraft-mod\src\generated\resources, --existing, C:\Users\jose3\Desktop\mod_minecraft\minecraft-mod\src\main\resources]
-[17mar2025 12:35:27.599] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 50.1.0, for MC 1.20.6 with MCP 20240429.135109
-[17mar2025 12:35:27.603] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v50.1.0 Initialized
-[17mar2025 12:35:27.624] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
-[17mar2025 12:35:28.439] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [modminecraft]
-[17mar2025 12:35:28.545] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/jose3/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.6-50.1.0_mapped_parchment_2024.06.16-1.20.6/forge-1.20.6-50.1.0_mapped_parchment_2024.06.16-1.20.6.jar%230!/assets/.mcassetsroot' uses unexpected schema
-[17mar2025 12:35:28.545] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/jose3/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.6-50.1.0_mapped_parchment_2024.06.16-1.20.6/forge-1.20.6-50.1.0_mapped_parchment_2024.06.16-1.20.6.jar%230!/data/.mcassetsroot' uses unexpected schema
-[17mar2025 12:35:28.763] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
-[17mar2025 12:35:28.962] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 198 ms
-[17mar2025 12:35:28.962] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
-[17mar2025 12:35:28.991] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 28 ms
-[17mar2025 12:35:28.991] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: modminecraft
-[17mar2025 12:35:29.169] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: modminecraft finished after 177 ms
-[17mar2025 12:35:29.169] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: modminecraft
-[17mar2025 12:35:29.177] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: modminecraft finished after 7 ms
-[17mar2025 12:35:29.177] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id modminecraft
-[17mar2025 12:35:29.197] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id modminecraft finished after 19 ms
-[17mar2025 12:35:29.197] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id modminecraft
-[17mar2025 12:35:29.199] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id modminecraft finished after 2 ms
-[17mar2025 12:35:29.199] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 436 ms
-[17mar2025 12:35:29.212] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 44, old count: 0, new count: 45, removed stale: 0, written: 44
+[17mar2025 12:58:17.434] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_userdev_data, --assetIndex, 16, --assetsDir, C:\Users\jose3\.gradle\caches\forge_gradle\assets, --gameDir, ., --mod, modminecraft, --all, --output, C:\Users\jose3\Desktop\mod_minecraft\minecraft-mod\src\generated\resources, --existing, C:\Users\jose3\Desktop\mod_minecraft\minecraft-mod\src\main\resources]
+[17mar2025 12:58:17.437] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Amazon.com Inc. OpenJDK 64-Bit Server VM 21.0.4+7-LTS
+[17mar2025 12:58:17.438] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.1 starting: java version 21.0.4 by Amazon.com Inc.; OS Windows 10 arch amd64 version 10.0
+[17mar2025 12:58:17.559] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_userdev_data
+[17mar2025 12:58:17.684] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=jar:file:///C:/Users/jose3/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar!/ Service=ModLauncher Env=UNKNOWN
+[17mar2025 12:58:18.828] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[17mar2025 12:58:19.626] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_userdev_data' with arguments [--gameDir, ., --assetsDir, C:\Users\jose3\.gradle\caches\forge_gradle\assets, --assetIndex, 16, --mod, modminecraft, --all, --output, C:\Users\jose3\Desktop\mod_minecraft\minecraft-mod\src\generated\resources, --existing, C:\Users\jose3\Desktop\mod_minecraft\minecraft-mod\src\main\resources]
+[17mar2025 12:58:24.613] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 50.1.0, for MC 1.20.6 with MCP 20240429.135109
+[17mar2025 12:58:24.615] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v50.1.0 Initialized
+[17mar2025 12:58:24.630] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
+[17mar2025 12:58:25.293] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [modminecraft]
+[17mar2025 12:58:25.379] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/jose3/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.6-50.1.0_mapped_parchment_2024.06.16-1.20.6/forge-1.20.6-50.1.0_mapped_parchment_2024.06.16-1.20.6.jar%230!/assets/.mcassetsroot' uses unexpected schema
+[17mar2025 12:58:25.380] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/jose3/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.6-50.1.0_mapped_parchment_2024.06.16-1.20.6/forge-1.20.6-50.1.0_mapped_parchment_2024.06.16-1.20.6.jar%230!/data/.mcassetsroot' uses unexpected schema
+[17mar2025 12:58:25.600] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[17mar2025 12:58:25.717] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 116 ms
+[17mar2025 12:58:25.717] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
+[17mar2025 12:58:25.741] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 22 ms
+[17mar2025 12:58:25.741] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: modminecraft
+[17mar2025 12:58:25.856] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: modminecraft finished after 114 ms
+[17mar2025 12:58:25.856] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: modminecraft
+[17mar2025 12:58:25.860] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: modminecraft finished after 3 ms
+[17mar2025 12:58:25.860] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id modminecraft
+[17mar2025 12:58:25.872] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id modminecraft finished after 12 ms
+[17mar2025 12:58:25.872] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id modminecraft
+[17mar2025 12:58:25.873] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id modminecraft finished after 0 ms
+[17mar2025 12:58:25.873] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 273 ms
+[17mar2025 12:58:25.881] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 44, old count: 44, new count: 45, removed stale: 0, written: 2
