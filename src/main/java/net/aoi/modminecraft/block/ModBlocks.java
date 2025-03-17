@@ -28,6 +28,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> FLORITA_ORE =registerBlock("florita_ore",
             () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_ORE).sound(SoundType.STONE)));
 
+    public static final RegistryObject<Block> OXIWOOD_PLANKS =registerBlock("oxiwood_planks",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS).sound(SoundType.WOOD)));
+
     public static final RegistryObject<Block> BANJO_MUSIC_BLOCK =registerBlock("banjo_music_block",
             () -> new BanjoMusicBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.CRAFTING_TABLE)));
 

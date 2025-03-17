@@ -19,6 +19,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.DEEPSLATE_ARGENTO_ORE);
         blockWithItem(ModBlocks.CALENTO_ORE);
 
+        blockWithItem(ModBlocks.OXIWOOD_PLANKS);
+
         blockWithItem(ModBlocks.FLORITA_ORE);
 
         blockWithItem(ModBlocks.BANJO_MUSIC_BLOCK);

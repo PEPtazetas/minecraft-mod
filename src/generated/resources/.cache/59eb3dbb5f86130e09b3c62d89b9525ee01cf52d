@@ -1,6 +1,7 @@
-// 1.20.6	2025-03-17T12:58:25.8748702	Loot Tables
-6cb31e7f5750d4be633ca1669c70c0bdd5d1dcd8 data/modminecraft/loot_tables/blocks/argento_ore.json
+// 1.20.6	2025-03-17T18:31:23.7048473	Loot Tables
+5b9d9ff80e9e8f0b961176aa46d48e2603fa483f data/modminecraft/loot_tables/blocks/argento_ore.json
 e204f37367c6baf0fff4e689d54e874d9115f08e data/modminecraft/loot_tables/blocks/banjo_music_block.json
-6b7e83e31241c7f2178c03df06f1e89e59fc3d53 data/modminecraft/loot_tables/blocks/calento_ore.json
-7d894d5ae26655ac65f89d11c1c077957d6bc891 data/modminecraft/loot_tables/blocks/deepslate_argento_ore.json
+1fef1ae867221f439c521d4807cf7e9425bddf4b data/modminecraft/loot_tables/blocks/calento_ore.json
+ebbb743af4db7e7b96fd4a6ee5ce1ce58744fece data/modminecraft/loot_tables/blocks/deepslate_argento_ore.json
 df421cbe4093771031a3373a89ef282aebefcb69 data/modminecraft/loot_tables/blocks/florita_ore.json
+a1777580b0fb2c4be628ef008c35060a6195b766 data/modminecraft/loot_tables/blocks/oxiwood_planks.json

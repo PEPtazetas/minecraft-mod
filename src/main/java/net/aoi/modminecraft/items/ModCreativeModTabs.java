@@ -25,6 +25,8 @@ public class ModCreativeModTabs {
 
                         pOutput.accept(ModItems.MINERAL_SEEKER.get());
 
+                        pOutput.accept(ModBlocks.OXIWOOD_PLANKS.get());
+
                         pOutput.accept(ModBlocks.ARGENTO_ORE.get());
                         pOutput.accept(ModBlocks.CALENTO_ORE.get());
                         pOutput.accept(ModBlocks.FLORITA_ORE.get());

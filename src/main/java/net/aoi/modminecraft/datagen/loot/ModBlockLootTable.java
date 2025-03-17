@@ -25,15 +25,17 @@ public class ModBlockLootTable extends BlockLootSubProvider {
     @Override
     protected void generate() {
 
-        this.dropSelf(ModBlocks.DEEPSLATE_ARGENTO_ORE.get());
+        this.dropSelf(ModBlocks.OXIWOOD_PLANKS.get());
         this.dropSelf(ModBlocks.BANJO_MUSIC_BLOCK.get());
 
         this.add(ModBlocks.FLORITA_ORE.get(),
                 block -> createCopperLikeOreDrops(ModBlocks.FLORITA_ORE.get(), ModItems.FLORITA.get()));
         this.add(ModBlocks.ARGENTO_ORE.get(),
-                block -> createCopperLikeOreDrops(ModBlocks.ARGENTO_ORE.get(), ModItems.ARGENTO.get()));
+                block -> createIronLikeOreDrops(ModBlocks.ARGENTO_ORE.get(), ModItems.ARGENTO.get()));
         this.add(ModBlocks.CALENTO_ORE.get(),
-                block -> createCopperLikeOreDrops(ModBlocks.CALENTO_ORE.get(), ModItems.CALENTO.get()));
+                block -> createIronLikeOreDrops(ModBlocks.CALENTO_ORE.get(), ModItems.CALENTO.get()));
+        this.add(ModBlocks.DEEPSLATE_ARGENTO_ORE.get(),
+                block -> createIronLikeOreDrops(ModBlocks.DEEPSLATE_ARGENTO_ORE.get(), ModItems.ARGENTO.get()));
     }
 
     private LootTable.Builder createCopperLikeOreDrops(Block block, Item item) {
@@ -41,6 +43,13 @@ public class ModBlockLootTable extends BlockLootSubProvider {
                 this.applyExplosionDecay(block,
                         LootItem.lootTableItem(item)
                                 .apply(SetItemCountFunction.setCount(UniformGenerator.between(2.0F, 5.0F)))
+                                .apply(ApplyBonusCount.addOreBonusCount(Enchantments.FORTUNE))));
+    }
+    private LootTable.Builder createIronLikeOreDrops(Block block, Item item) {
+        return createSilkTouchDispatchTable(block,
+                this.applyExplosionDecay(block,
+                        LootItem.lootTableItem(item)
+                                .apply(SetItemCountFunction.setCount(UniformGenerator.between(1.0F,1.0F)))
                                 .apply(ApplyBonusCount.addOreBonusCount(Enchantments.FORTUNE))));
     }
 
