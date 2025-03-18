@@ -1,9 +1,18 @@
-// 1.20.6	2025-03-17T12:35:29.2031815	Item Models: modminecraft
+// 1.20.6	2025-03-18T22:31:20.7404029	Item Models: modminecraft
 46c6b9f91d344cac40af291a3929900a7432f24a assets/modminecraft/models/item/argento.json
 90aa12777d5eb5ea5533d16ee1657455c85fec4b assets/modminecraft/models/item/calento.json
 2460a9f360d3f98a2cd9790f627f9b1a052f729e assets/modminecraft/models/item/florita.json
 b485019d33ea9c1f8bf624a0ee6a1882d4bf1cc4 assets/modminecraft/models/item/florita_ingot.json
 327f1e511eb3a50686474667ace54ac2e9c61f5c assets/modminecraft/models/item/leaf.json
 f981cd3a822a245654811c37a1b975b165fbef45 assets/modminecraft/models/item/mineral_seeker.json
+5d73176871dec273d306e148089f490a622f84b8 assets/modminecraft/models/item/oxiwood_button.json
+ad348ac0fef86af3eba1566ffb8a4a7e07fb41d9 assets/modminecraft/models/item/oxiwood_door.json
+bebabc5bde4618d7fa36e581c22b41a0736fe3f9 assets/modminecraft/models/item/oxiwood_fence.json
+af1bf06813dc7ca235339a7ef97ebeb7c62c8603 assets/modminecraft/models/item/oxiwood_fence_gate.json
+3fa536366dc5b564f24af13b53e1262517b85fc9 assets/modminecraft/models/item/oxiwood_pressure_plate.json
+5f7ca90421ebbd71c1a3aa32dd2104ea1b1eeaf5 assets/modminecraft/models/item/oxiwood_slab.json
+648ff098419ec400fe4311c66d80865123ab1719 assets/modminecraft/models/item/oxiwood_stairs.json
+ed350603c36194412332c6c20d4039e9eed3b5cf assets/modminecraft/models/item/oxiwood_trapdoor.json
+35e0116759c9ffbe959c91d78d35d5b00096cea4 assets/modminecraft/models/item/oxiwood_wall.json
 6c31a14e59158ae95cf3542d6ccaf1df7d229315 assets/modminecraft/models/item/sandwich.json
 a22abb7c846ec3bc3aac573e984f26c44d14f19e assets/modminecraft/models/item/strawberry.json

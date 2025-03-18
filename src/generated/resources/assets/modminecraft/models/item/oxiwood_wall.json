@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "modminecraft:block/oxiwood_planks"
+  }
+}

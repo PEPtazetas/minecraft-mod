@@ -32,6 +32,16 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlocks.FLORITA_ORE.get());
                         pOutput.accept(ModBlocks.DEEPSLATE_ARGENTO_ORE.get());
 
+                        pOutput.accept(ModBlocks.OXIWOOD_FENCE.get());
+                        pOutput.accept(ModBlocks.OXIWOOD_SLAB.get());
+                        pOutput.accept(ModBlocks.OXIWOOD_DOOR.get());
+                        pOutput.accept(ModBlocks.OXIWOOD_STAIRS.get());
+                        pOutput.accept(ModBlocks.OXIWOOD_BUTTON.get());
+                        pOutput.accept(ModBlocks.OXIWOOD_TRAPDOOR.get());
+                        pOutput.accept(ModBlocks.OXIWOOD_WALL.get());
+                        pOutput.accept(ModBlocks.OXIWOOD_FENCE_GATE.get());
+                        pOutput.accept(ModBlocks.OXIWOOD_PRESSURE_PLATE.get());
+
                         pOutput.accept(ModBlocks.BANJO_MUSIC_BLOCK.get());
 
                         pOutput.accept(ModItems.SANDWICH.get());

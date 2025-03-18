@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button",
+  "textures": {
+    "texture": "modminecraft:block/oxiwood_planks"
+  }
+}

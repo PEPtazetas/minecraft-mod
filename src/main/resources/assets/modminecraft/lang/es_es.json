@@ -14,6 +14,16 @@
 
   "block.modminecraft.oxiwood_planks": "Tablones de Oximadera",
 
+  "block.modminecraft.oxiwood_stairs": "Escaleras de oximadera",
+  "block.modminecraft.oxiwood_slab": "Losa de Oximadera",
+  "block.modminecraft.oxiwood_button": "Botón de Oximadera",
+  "block.modminecraft.oxiwood_pressure_plate": "Placa de Presión de Oximadera",
+  "block.modminecraft.oxiwood_fence": "Valla de Oximadera",
+  "block.modminecraft.oxiwood_fence_gate": "Puerta de Valla de Oximadera",
+  "block.modminecraft.oxiwood_wall": "Muro de Oximadera",
+  "block.modminecraft.oxiwood_door": "Puerta de Oximadera",
+  "block.modminecraft.oxiwood_trapdoor": "Trampilla de Oximadera",
+
   "item.modminecraft.sandwich": "Bocadillo de Chuleta de Cerdo",
   "item.modminecraft.strawberry": "Fresa",
 

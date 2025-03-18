@@ -28,6 +28,19 @@ public class ModBlockLootTable extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.OXIWOOD_PLANKS.get());
         this.dropSelf(ModBlocks.BANJO_MUSIC_BLOCK.get());
 
+        this.dropSelf(ModBlocks.OXIWOOD_FENCE.get());
+        this.dropSelf(ModBlocks.OXIWOOD_WALL.get());
+        this.dropSelf(ModBlocks.OXIWOOD_TRAPDOOR.get());
+        this.dropSelf(ModBlocks.OXIWOOD_FENCE_GATE.get());
+        this.dropSelf(ModBlocks.OXIWOOD_BUTTON.get());
+        this.dropSelf(ModBlocks.OXIWOOD_STAIRS.get());
+        this.dropSelf(ModBlocks.OXIWOOD_PRESSURE_PLATE.get());
+
+        this.add(ModBlocks.OXIWOOD_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.OXIWOOD_SLAB.get()));
+        this.add(ModBlocks.OXIWOOD_DOOR.get(),
+                block -> createDoorTable(ModBlocks.OXIWOOD_DOOR.get()));
+
         this.add(ModBlocks.FLORITA_ORE.get(),
                 block -> createCopperLikeOreDrops(ModBlocks.FLORITA_ORE.get(), ModItems.FLORITA.get()));
         this.add(ModBlocks.ARGENTO_ORE.get(),

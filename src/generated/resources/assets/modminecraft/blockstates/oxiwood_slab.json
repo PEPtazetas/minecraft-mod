@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "modminecraft:block/oxiwood_slab"
+    },
+    "type=double": {
+      "model": "modminecraft:block/oxiwood_planks"
+    },
+    "type=top": {
+      "model": "modminecraft:block/oxiwood_slab_top"
+    }
+  }
+}

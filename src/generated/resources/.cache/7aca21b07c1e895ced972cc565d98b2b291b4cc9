@@ -1,7 +1,10 @@
-// 1.20.6	2025-03-17T18:31:23.702852	Tags for minecraft:block mod id modminecraft
+// 1.20.6	2025-03-18T21:23:11.7143454	Tags for minecraft:block mod id modminecraft
 418f4ac68d4789097a59c907b5c4ef7f77457db0 data/forge/tags/blocks/needs_wood_tool.json
+0cc881d54bcb54059431ca16516c70ef71b14ab3 data/minecraft/tags/blocks/fences.json
+8d0561dc97b04dbeec1e424bf9f8dda8082ab8a4 data/minecraft/tags/blocks/fence_gates.json
 418f4ac68d4789097a59c907b5c4ef7f77457db0 data/minecraft/tags/blocks/mineable/axe.json
 51878ef0957ba0b34612c5bf490ca1016c93d138 data/minecraft/tags/blocks/mineable/pickaxe.json
 376e38a3e4f739b20a1df59f9225d6cd632204a0 data/minecraft/tags/blocks/needs_diamond_tool.json
 666483b88789ab0dfd6e3adb1d24a66d076253a2 data/minecraft/tags/blocks/needs_iron_tool.json
+bea6d26b6dcb36b10edb0d32c1a23240e50ddaca data/minecraft/tags/blocks/walls.json
 e4dde0a47eb1634d85341ea27501b5fb07574279 data/modminecraft/tags/blocks/mineral_seeker_valuables.json

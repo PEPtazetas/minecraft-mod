@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "modminecraft:block/oxiwood_planks",
+    "side": "modminecraft:block/oxiwood_planks",
+    "top": "modminecraft:block/oxiwood_planks"
+  }
+}

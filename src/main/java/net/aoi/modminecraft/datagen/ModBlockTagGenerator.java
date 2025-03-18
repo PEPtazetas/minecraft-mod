@@ -51,5 +51,20 @@ public class ModBlockTagGenerator  extends BlockTagsProvider {
                 .add(ModBlocks.OXIWOOD_PLANKS.get());
         //this.tag(Tags.Blocks.NEEDS_NETHERITE_TOOL).add(ModBlocks.ARGENTO_ORE.get());
         //this.tag(BlockTags.NEEDS_STONE_TOOL).add(ModBlocks.ARGENTO_ORE.get());
+
+        this.tag(BlockTags.FENCES)
+                .add(
+                        ModBlocks.OXIWOOD_FENCE.get()
+                );
+
+        this.tag(BlockTags.FENCE_GATES)
+                .add(
+                        ModBlocks.OXIWOOD_FENCE_GATE.get()
+                );
+
+        this.tag(BlockTags.WALLS)
+                .add(
+                        ModBlocks.OXIWOOD_WALL.get()
+                );
     }
 }

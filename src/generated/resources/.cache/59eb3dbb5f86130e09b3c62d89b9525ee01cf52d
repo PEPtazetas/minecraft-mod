@@ -1,7 +1,16 @@
-// 1.20.6	2025-03-17T18:31:23.7048473	Loot Tables
+// 1.20.6	2025-03-18T21:23:11.7173357	Loot Tables
 5b9d9ff80e9e8f0b961176aa46d48e2603fa483f data/modminecraft/loot_tables/blocks/argento_ore.json
 e204f37367c6baf0fff4e689d54e874d9115f08e data/modminecraft/loot_tables/blocks/banjo_music_block.json
 1fef1ae867221f439c521d4807cf7e9425bddf4b data/modminecraft/loot_tables/blocks/calento_ore.json
 ebbb743af4db7e7b96fd4a6ee5ce1ce58744fece data/modminecraft/loot_tables/blocks/deepslate_argento_ore.json
 df421cbe4093771031a3373a89ef282aebefcb69 data/modminecraft/loot_tables/blocks/florita_ore.json
+b06ffa5f61cee832e2a3ff83802da861975b528a data/modminecraft/loot_tables/blocks/oxiwood_button.json
+99b617b21def591215db3fabff181a85964f5593 data/modminecraft/loot_tables/blocks/oxiwood_door.json
+0af9ef7c722736774110fa10112077132a02f848 data/modminecraft/loot_tables/blocks/oxiwood_fence.json
+79725959688ec5def76c15a8dd0a3480f27e1a3a data/modminecraft/loot_tables/blocks/oxiwood_fence_gate.json
 a1777580b0fb2c4be628ef008c35060a6195b766 data/modminecraft/loot_tables/blocks/oxiwood_planks.json
+a601989ef606868b96ca1f46774e08f4d4576189 data/modminecraft/loot_tables/blocks/oxiwood_pressure_plate.json
+087da7710bb949f40cc95157aa4890c8720256ff data/modminecraft/loot_tables/blocks/oxiwood_slab.json
+62a6b02d20ac0a444fe157024398b877322aecdd data/modminecraft/loot_tables/blocks/oxiwood_stairs.json
+1ec2af018d91a21d6e9dd8ea36dbd809290fb9da data/modminecraft/loot_tables/blocks/oxiwood_trapdoor.json
+b736f14aaf764ae15dd002b76df3e3da20f93d4b data/modminecraft/loot_tables/blocks/oxiwood_wall.json

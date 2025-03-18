@@ -3,14 +3,14 @@ package net.aoi.modminecraft.block;
 import net.aoi.modminecraft.ModMinecraft;
 import net.aoi.modminecraft.block.custom.BanjoMusicBlock;
 import net.aoi.modminecraft.items.ModItems;
+import net.minecraft.sounds.SoundEvents;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.block.DropExperienceBlock;
-import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.state.properties.BlockSetType;
+import net.minecraft.world.level.block.state.properties.WoodType;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -30,6 +30,30 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> OXIWOOD_PLANKS =registerBlock("oxiwood_planks",
             () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS).sound(SoundType.WOOD)));
+
+    public static final RegistryObject<Block> OXIWOOD_STAIRS =registerBlock("oxiwood_stairs",
+            () -> new StairBlock(ModBlocks.OXIWOOD_PLANKS.get().defaultBlockState(),
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> OXIWOOD_SLAB =registerBlock("oxiwood_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS).sound(SoundType.WOOD)));
+
+    public static final RegistryObject<Block> OXIWOOD_BUTTON =registerBlock("oxiwood_button",
+            () -> new ButtonBlock(BlockSetType.OAK, 5, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_BUTTON).sound(SoundType.WOOD) ));
+    public static final RegistryObject<Block> OXIWOOD_PRESSURE_PLATE =registerBlock("oxiwood_pressure_plate",
+            () -> new PressurePlateBlock(BlockSetType.OAK,BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS).sound(SoundType.WOOD)));
+
+    public static final RegistryObject<Block> OXIWOOD_FENCE =registerBlock("oxiwood_fence",
+            () -> new FenceBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> OXIWOOD_FENCE_GATE =registerBlock("oxiwood_fence_gate",
+                () -> new FenceGateBlock(WoodType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS)
+                        .sound(SoundType.WOOD), SoundEvents.FENCE_GATE_OPEN, SoundEvents.FENCE_GATE_CLOSE));
+    public static final RegistryObject<Block> OXIWOOD_WALL =registerBlock("oxiwood_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS).sound(SoundType.WOOD)));
+
+    public static final RegistryObject<Block> OXIWOOD_DOOR =registerBlock("oxiwood_door",
+            () -> new DoorBlock(BlockSetType.OAK,BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> OXIWOOD_TRAPDOOR =registerBlock("oxiwood_trapdoor",
+            () -> new TrapDoorBlock(BlockSetType.OAK,BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS).sound(SoundType.WOOD).noOcclusion()));
 
     public static final RegistryObject<Block> BANJO_MUSIC_BLOCK =registerBlock("banjo_music_block",
             () -> new BanjoMusicBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.CRAFTING_TABLE)));
