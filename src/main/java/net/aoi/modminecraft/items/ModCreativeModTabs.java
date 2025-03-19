@@ -23,6 +23,8 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.FLORITA.get());
                         pOutput.accept(ModItems.FLORITA_INGOT.get());
 
+                        pOutput.accept(ModItems.URIMITA_WAND.get());
+
                         pOutput.accept(ModItems.MINERAL_SEEKER.get());
 
                         pOutput.accept(ModBlocks.OXIWOOD_PLANKS.get());

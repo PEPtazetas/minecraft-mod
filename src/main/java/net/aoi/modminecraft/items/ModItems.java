@@ -23,6 +23,8 @@ public class ModItems {
     public static final RegistryObject<Item> SANDWICH =ITEMS.register("sandwich", () -> new Item(new Item.Properties().food(ModFoods.SANDWICH)));
     public static final RegistryObject<Item> STRAWBERRY =ITEMS.register("strawberry", () -> new Item(new Item.Properties().food(ModFoods.STRAWBERRY)));
 
+    public static final RegistryObject<Item> URIMITA_WAND =ITEMS.register("urimita_wand", () -> new Item(new Item.Properties().stacksTo(1)));
+
     public static final RegistryObject<Item> LEAF =ITEMS.register("leaf", () -> new FuelItem(new Item.Properties(), 200));
 
     public static void register(IEventBus eventBus){
