@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "modminecraft:item/argento_pickaxe"
+  }
+}

@@ -1,5 +1,10 @@
-// 1.20.6	2025-03-18T22:31:20.7404029	Item Models: modminecraft
+// 1.20.6	2025-03-20T21:01:30.534233	Item Models: modminecraft
 46c6b9f91d344cac40af291a3929900a7432f24a assets/modminecraft/models/item/argento.json
+e39136890fad0d3fe422396888fb060aca14bb56 assets/modminecraft/models/item/argento_axe.json
+fbe2926cf9b29e5b6faeb6d9181943d41905042f assets/modminecraft/models/item/argento_hoe.json
+a37ad66ab6ad39f7f6f2a9c8b2b333b572a4afaf assets/modminecraft/models/item/argento_pickaxe.json
+9f950beaabbb552a49e8e10cff0a6dd01838ef25 assets/modminecraft/models/item/argento_shovel.json
+afa8d181f1009e1d3a2e6fcb63abef2ab31c398f assets/modminecraft/models/item/argento_sword.json
 90aa12777d5eb5ea5533d16ee1657455c85fec4b assets/modminecraft/models/item/calento.json
 2460a9f360d3f98a2cd9790f627f9b1a052f729e assets/modminecraft/models/item/florita.json
 b485019d33ea9c1f8bf624a0ee6a1882d4bf1cc4 assets/modminecraft/models/item/florita_ingot.json

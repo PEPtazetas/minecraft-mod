@@ -25,6 +25,14 @@ public class ModCreativeModTabs {
 
                         pOutput.accept(ModItems.URIMITA_WAND.get());
 
+                        pOutput.accept(ModItems.ARGENTO_SWORD.get());
+                        pOutput.accept(ModItems.ARGENTO_AXE.get());
+                        pOutput.accept(ModItems.ARGENTO_PICKAXE.get());
+                        pOutput.accept(ModItems.ARGENTO_SHOVEL.get());
+                        pOutput.accept(ModItems.ARGENTO_HOE.get());
+
+
+
                         pOutput.accept(ModItems.MINERAL_SEEKER.get());
 
                         pOutput.accept(ModBlocks.OXIWOOD_PLANKS.get());

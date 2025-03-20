@@ -41,6 +41,17 @@ public class ModItemModelProvider extends ItemModelProvider {
         fenceItem(ModBlocks.OXIWOOD_FENCE, ModBlocks.OXIWOOD_PLANKS);
         buttonItem(ModBlocks.OXIWOOD_BUTTON, ModBlocks.OXIWOOD_PLANKS);
         wallItem(ModBlocks.OXIWOOD_WALL, ModBlocks.OXIWOOD_PLANKS);
+
+        handheldItem(ModItems.ARGENTO_SWORD);
+        handheldItem(ModItems.ARGENTO_PICKAXE);
+        handheldItem(ModItems.ARGENTO_AXE);
+        handheldItem(ModItems.ARGENTO_SHOVEL);
+        handheldItem(ModItems.ARGENTO_HOE);
+    }
+    private ItemModelBuilder handheldItem(RegistryObject<Item> item){
+        return withExistingParent(item.getId().getPath(),
+                new ResourceLocation("item/handheld")).texture("layer0",
+                new ResourceLocation(ModMinecraft.MOD_ID,"item/" + item.getId().getPath()));
     }
     private ItemModelBuilder simpleItem(RegistryObject<Item> item){
         return withExistingParent(item.getId().getPath(),

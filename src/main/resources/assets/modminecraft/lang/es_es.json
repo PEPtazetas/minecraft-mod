@@ -7,6 +7,12 @@
   "item.modminecraft.mineral_seeker": "Buscador de Minerales",
   "item.modminecraft.urimita_wand": "Varita de Urimita",
 
+  "item.modminecraft.argento_sword": "Espada de Argento",
+  "item.modminecraft.argento_pickaxe": "Pico de Argento",
+  "item.modminecraft.argento_axe": "Hacha de Argento",
+  "item.modminecraft.argento_shovel": "Pala de Argento",
+  "item.modminecraft.argento_hoe": "Azada de Argento",
+
   "block.modminecraft.argento_ore": "Mena de Argento",
   "block.modminecraft.calento_ore": "Mena de Calento",
   "block.modminecraft.florita_ore": "Mena de Florita",

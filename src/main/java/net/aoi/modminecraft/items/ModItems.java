@@ -3,7 +3,7 @@ package net.aoi.modminecraft.items;
 import net.aoi.modminecraft.ModMinecraft;
 import net.aoi.modminecraft.items.custom.FuelItem;
 import net.aoi.modminecraft.items.custom.MineralSeekerItem;
-import net.minecraft.world.item.Item;
+import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -26,6 +26,17 @@ public class ModItems {
     public static final RegistryObject<Item> URIMITA_WAND =ITEMS.register("urimita_wand", () -> new Item(new Item.Properties().stacksTo(1)));
 
     public static final RegistryObject<Item> LEAF =ITEMS.register("leaf", () -> new FuelItem(new Item.Properties(), 200));
+
+    public static final RegistryObject<Item> ARGENTO_SWORD = ITEMS.register("argento_sword", () -> new SwordItem(ModToolTiers.ARGENTO, new Item.Properties()
+            .attributes(SwordItem.createAttributes(ModToolTiers.ARGENTO, 3, -2.4f))));
+    public static final RegistryObject<Item> ARGENTO_AXE = ITEMS.register("argento_axe", () -> new AxeItem(ModToolTiers.ARGENTO, new Item.Properties()
+            .attributes(AxeItem.createAttributes(ModToolTiers.ARGENTO, 6, -3.2f))));
+    public static final RegistryObject<Item> ARGENTO_PICKAXE = ITEMS.register("argento_pickaxe", () -> new PickaxeItem(ModToolTiers.ARGENTO, new Item.Properties()
+            .attributes(PickaxeItem.createAttributes(ModToolTiers.ARGENTO, 1, -2.8f))));
+    public static final RegistryObject<Item> ARGENTO_SHOVEL = ITEMS.register("argento_shovel", () -> new ShovelItem(ModToolTiers.ARGENTO, new Item.Properties()
+            .attributes(ShovelItem.createAttributes(ModToolTiers.ARGENTO, 1.5f, -3.0f))));
+    public static final RegistryObject<Item> ARGENTO_HOE = ITEMS.register("argento_hoe", () -> new HoeItem(ModToolTiers.ARGENTO, new Item.Properties()
+            .attributes(HoeItem.createAttributes(ModToolTiers.ARGENTO, 0, -3.0f))));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

@@ -6,6 +6,7 @@ import net.aoi.modminecraft.util.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.tags.BlockTags;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.Tags;
 import net.minecraftforge.common.data.BlockTagsProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
@@ -43,10 +44,7 @@ public class ModBlockTagGenerator  extends BlockTagsProvider {
                         ModBlocks.DEEPSLATE_ARGENTO_ORE.get(),
                         ModBlocks.CALENTO_ORE.get()
                 );
-        this.tag(BlockTags.NEEDS_IRON_TOOL)
-                .add(
-                        ModBlocks.FLORITA_ORE.get()
-                );
+        //this.tag(BlockTags.NEEDS_IRON_TOOL).add();
         this.tag(Tags.Blocks.NEEDS_WOOD_TOOL)
                 .add(ModBlocks.OXIWOOD_PLANKS.get());
         //this.tag(Tags.Blocks.NEEDS_NETHERITE_TOOL).add(ModBlocks.ARGENTO_ORE.get());
@@ -66,5 +64,14 @@ public class ModBlockTagGenerator  extends BlockTagsProvider {
                 .add(
                         ModBlocks.OXIWOOD_WALL.get()
                 );
+
+        this.tag(ModTags.Blocks.NEEDS_ARGENTO_TOOL)
+                .add(ModBlocks.FLORITA_ORE.get())
+                .add(Blocks.OBSIDIAN)
+                .addTag(BlockTags.NEEDS_IRON_TOOL);
+
+        this.tag(ModTags.Blocks.INCORRECT_FOR_ARGENTO_TOOL)
+                .addTag(BlockTags.INCORRECT_FOR_IRON_TOOL)
+                .remove(ModTags.Blocks.NEEDS_ARGENTO_TOOL);
     }
 }
